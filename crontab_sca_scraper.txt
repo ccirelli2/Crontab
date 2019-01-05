@@ -1,0 +1,7 @@
+SHELL=/bin/bash
+PATH=/home/ccirelli2/anaconda3/bin:/home/ccirelli2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+
+0 10,15 * * 1-5 /home/ccirelli2/anaconda3/bin/python3 /home/ccirelli2/Desktop/Programming/SCA_Web_scaper/Code/Script_1_ScraperDriverFunction_v2.py  2>> /home/ccirelli2/Desktop/Programming/SCA_Web_scaper/Output/Output_crontab.txt
+
+
